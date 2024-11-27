@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: rgba(157, 157, 157, 0.512);
+}
+
+header {
+    position: fixed;
+    background-color: rgb(188, 218, 17);
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+}
+
+header .logo {
+    position: relative;
+    font-size: 2em;
+    color: rgb(53, 35, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: Helvetica;
+    margin: 0 10px;
+    padding: 4px;
+    text-decoration: none;
+    color: #392400bb;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
+header .ul2 {
+    font-size: medium;
+}
+
+main {
+    padding: 1rem 1rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.post {
+    margin-top: 7%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post-body {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+footer {
+    background: #1e1e1e;
+    color: #f1f1f1;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.fotos {
+    border-radius: 10%;
+    border-color: aqua;
+    border-width: 30px;
+    margin-left: 15%;
+}
+
+.subtitulo,
+li,
+a {
+    font-family: Helvetica;
+    margin: 0 10px;
+    padding: 4px;
+    text-decoration: none;
+    color: #392400bb;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.text {
+    max-width: 85%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(121, 87, 43);
+}
+
+h3 {
+    font-size: 2em;
+    color: rgb(53, 35, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img-contenedor img {
+    border-radius: 4%;
+    border-color: aqua;
+    border-width: 30px;
+    margin-left: 5%;
+}
